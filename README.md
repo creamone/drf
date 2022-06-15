@@ -22,7 +22,7 @@ list_ = mutable
 string += " immmutable string!!"
 list_.append = "mutable string!!"
 
-2. mutable, immutable 특성
+문제(검색)2. mutable, immutable 특성
 [특성]
 mutable : 변할 수 있는 값
 immutable : 변할 수 없는 값
@@ -32,7 +32,7 @@ mutable : list, dictionary, set 등
 immutable : int, float, string, tuple 등
 
 
-3. DB Field의 Key 종류와 특징
+문제 3. DB Field의 Key 종류와 특징
 [Key]
 릴레이션(=테이블)
 - 데이터베이스의 데이터들을 표의 형태로 표현한 것
@@ -68,7 +68,7 @@ immutable : int, float, string, tuple 등
 - 릴레이션을 구성하는 튜플들에 대해 유일성은 만족하나 최소성은 만족하지 못한다.
 
 
-4. django의 object, queryset
+문제 4. django의 object, queryset
 object : DB 모델에 대한 객체
 queryset : DB 모델에서 전달받은 객체(object)들의 목록
 
