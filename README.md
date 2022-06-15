@@ -3,6 +3,7 @@
 
 
 문제2. mutable과 immutable은 어떤 특성이 있고, 어떤 자료형이 어디에 해당하는지 서술하기
+
 mutable 주소값
 
 immutable 값을 저장
@@ -10,9 +11,11 @@ immutable 값을 저장
 deepcopy(mutable) 주소값으로 들어가지않고 값으로 들어간다  list_ = mutable[:] == 요것또한비슷한맥락
 
 # x와 z가 같은 객체를 공유하지 않는다.(리스트만 가능)
+
 z = x[:]
 
 # deepcopy를 이용하면 x와 cpy가 같은 객체를 공유하지 않는다.
+
 dcpy = copy.deepcopy(x)
 
 출처: https://ledgku.tistory.com/54 [블로그:티스토리]
